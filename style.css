@@ -17,24 +17,7 @@ html {
 .container {
   margin: 15px;
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
-  /* grid-template-columns: 50% 50%; */
-  /* grid-template-columns: repeat(1, 1fr); */
-  /* grid-template-columns: repeat(2, 1fr); */
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* grid-template-columns: repeat(4, 1fr); */
-  /* grid-template-columns: repeat(5, 1fr); */
-  grid-template-columns: repeat(6, 1fr);
-  /* grid-template-columns: repeat(7, 1fr); */
-  /* grid-template-columns: repeat(8, 1fr); */
-  /* grid-template-columns: repeat(9, 1fr); */
-  /* grid-template-columns: repeat(10, 1fr); */
-  /* grid-template-columns: repeat(11, 1fr); */
-  /* grid-template-columns: repeat(12, 1fr); */
-  /* grid-template-columns: auto 150px auto; */
-  /* grid-template-columns: 1fr 150px 1fr; */
-  /* grid-gap: 15px; */
-  /* grid-column-gap: 15px;
-  grid-row-gap: 15px; */
   gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px auto;
 }
