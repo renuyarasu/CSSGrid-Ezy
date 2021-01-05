@@ -31,6 +31,7 @@ html {
   grid-row: 3 / span 9;
 }
 
+/*Aside*/
 #aside2 {
   grid-area: 4/7/12/9;
 }
@@ -54,13 +55,15 @@ html {
   grid-area: 12/1/14/9;
 }
 
+/*Section*/
 #section1 {
   grid-area: 4/3/8/7;
 }
-
 #section2 {
   grid-area: 8/3/12/7;
 }
+
+/*Article*/
 #article1 {
   grid-area: 5/3/8/5;
 }
